@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #7CB9E8,#00308F);
+    background-size: 100% 900%;
+    background-attachment: fixed;
+    animation: gradient 15s linear infinite;
+    
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  h1 {
+    text-align: center;
+    margin: 0 auto; /* Center horizontally using margin */
+    font-weight: bold;
+    color: white;
+  }
+
+  footer {
+    text-align: left; /* Align the text to the left */
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default list padding */
+    margin: 0; /* Remove default list margin */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Add spacing between each name */
+    font-weight: bold;
+    color: black;
+  }
+  
+  
