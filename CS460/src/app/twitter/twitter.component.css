@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #7CB9E8,#00308F);
+    background-size: 100% 900%;
+    background-attachment: fixed;
+    animation: gradient 15s linear infinite;
+
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .heading {
+    text-align: center;
+    margin: 0 auto; /* Center horizontally using margin */
+    font-weight: bold;
+    color: white;
+  }
+  .subheading {
+    text-align: center;
+    margin: 0 auto; /* Center horizontally using margin */
+    font-weight: bold;
+    color: white;
+  }

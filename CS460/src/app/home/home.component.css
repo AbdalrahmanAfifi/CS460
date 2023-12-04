@@ -21,7 +21,13 @@ body {
   }
 
 
-  h1 {
+  .heading {
+    text-align: center;
+    margin: 0 auto; /* Center horizontally using margin */
+    font-weight: bold;
+    color: white;
+  }
+  .subheading {
     text-align: center;
     margin: 0 auto; /* Center horizontally using margin */
     font-weight: bold;
