@@ -5,7 +5,6 @@ body {
     background-size: 100% 900%;
     background-attachment: fixed;
     animation: gradient 15s linear infinite;
-
   }
 
   @keyframes gradient {
@@ -20,18 +19,32 @@ body {
     }
   }
 
+.body-text{
+    text-align: center;
+    margin: 0 auto; /* Center horizontally using margin */
+    padding-left: 100px;
+    padding-right: 100px;
 
+    font-size: large;
+}
   .heading {
     text-align: center;
     margin: 0 auto; /* Center horizontally using margin */
     font-weight: bold;
     color: white;
+    padding-top: 50px;
   }
   .subheading {
     text-align: center;
     margin: 0 auto; /* Center horizontally using margin */
     font-weight: bold;
     color: white;
+  }
+
+  .subheading-black{
+    text-align: center;
+    margin: 0 auto; /* Center horizontally using margin */
+    font-weight: bold;
   }
 
   footer {

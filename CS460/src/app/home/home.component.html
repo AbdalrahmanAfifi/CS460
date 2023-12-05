@@ -2,18 +2,29 @@
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="home.component.css">
+  <link href="home.component.css" rel="stylesheet" type="text/css">
+  <h1 class ="heading">Data Visualization for AntiWork</h1>
+  <h3 class="subheading">WVU CS460: Group 1</h3>
 </head>
 <body>
-  <h1 class ="heading">Data Visualization for AntiWork</h1>
-  <h3 class="subheading">CS460: Group 1</h3>
-  <div class="button-container">
+  <h3 class="subheading-black"><br>About Antiwork</h3>
+  <div class = body-text>
+    r/Antiwork is a subreddit devoted to discussing modern work culture, as well as advocating for work reform and unionization.
+    Founded in 2013, it saw a sharp increase in activity during the Covid-19 pandemic as work life rapidly evolved due to social isolation.
+    Normalization of work from home led to a widespread reexamining of the ideal work-life balance and what's one's labor is truly worth.
+
+    <br><br>This project explores the popularity of the antiwork movement, both within its dedicated subreddit and in the larger Twittersphere.
+  </div>
+ <div class="button-container">
     <nav>
     <a routerLink="reddit"><button> Reddit </button></a>
     <a routerLink="twitter"><button> Twitter </button> </a>
     </nav>
     <router-outlet></router-outlet>
   </div>
+  <h3 class="subheading"><br><br>Click to explore our data visualizations.</h3>
+
+
 
   <footer>
     <ul>
