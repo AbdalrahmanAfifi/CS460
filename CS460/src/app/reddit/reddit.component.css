@@ -25,6 +25,7 @@ body {
     margin: 0 auto; /* Center horizontally using margin */
     font-weight: bold;
     color: white;
+    padding-top: 50px;
   }
   .subheading {
     text-align: center;
